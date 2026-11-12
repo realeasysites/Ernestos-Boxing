@@ -372,3 +372,7 @@ p { margin: 0 0 1em; }
 .feed-copy .btn-ghost { margin-left: 8px; }
 @media (max-width: 1020px) { .quotes { grid-template-columns: 1fr; max-width: 560px; margin-inline: auto; } .quote { rotate: 0deg !important; } }
 @media (max-width: 680px) { .reviews { padding: 70px 0; } .feed-copy .btn { width: 100%; margin-left: 0; margin-bottom: 12px; } .feed-copy .btn-ink { margin-bottom: 12px; } }
+
+.sign-photo { margin: 26px 0 0; border: 3px solid var(--ink); background: #fffaf0; padding: 10px 10px 0; box-shadow: 6px 6px 0 var(--ink); rotate: -1.5deg; }
+.sign-photo img { width: 100%; border: 2px solid var(--ink); }
+.sign-photo figcaption { font-family: var(--cond); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; text-align: center; padding: 8px 0; font-size: .9rem; }
